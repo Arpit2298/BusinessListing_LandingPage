@@ -51,6 +51,29 @@
 }
 
 
+/* <<<<<<<<<<..........Package............>>>>>>>>>>> */
+
+#package h3 {
+    color: indianred;
+}
+
+#package h4,
+p,
+h6 {
+    color: #333333;
+}
+
+#package li,
+span {
+    color: darkslategray;
+}
+
+.PacBox {
+    background-color: white;
+    padding: 20px;
+}
+
+
 /* <<<<<<<<<<..........Gallery............>>>>>>>>>>> */
 
 #Gallery {
