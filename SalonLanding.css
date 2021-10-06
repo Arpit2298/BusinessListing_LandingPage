@@ -53,6 +53,10 @@
 
 /* <<<<<<<<<<..........Package............>>>>>>>>>>> */
 
+#package {
+    background-color: #F5F5F5;
+}
+
 #package h3 {
     color: indianred;
 }
@@ -70,7 +74,7 @@ span {
 
 .PacBox {
     background-color: white;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 
@@ -193,7 +197,6 @@ span {
     overflow: hidden;
     margin: 10px;
     min-width: 220px;
-    max-width: 310px;
     width: 100%;
     color: #333333;
     text-align: center;
@@ -563,6 +566,19 @@ input::-webkit-input-placeholder {
     }
     .details .rating {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .cartbox {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .marginnone {
+        margin: 0;
+        padding: 0;
     }
 }
 
